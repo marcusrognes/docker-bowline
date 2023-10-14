@@ -1,6 +1,6 @@
 import {socketRequest} from "./request";
 
-export interface CallerProps {
+export interface SocketProps {
 	socket: string
 	apiVersion?: string
 }
@@ -9,7 +9,7 @@ export class Socket {
 	private readonly socket: string;
 	private readonly apiVersion: string = "v1.43";
 
-	constructor(props: CallerProps) {
+	constructor(props: SocketProps) {
 		this.socket = props.socket;
 		this.apiVersion = props.apiVersion || "v1.43";
 	}

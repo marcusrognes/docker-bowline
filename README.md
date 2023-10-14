@@ -33,15 +33,24 @@ const unixSocket = new Docker({
 
 ````typescript
 
-// Pull image
+const docker = new Docker({socket: "/var/run/docker.sock"});
+
+// Create container won`t auto pull a missing container.
 await docker.images.pull("mongo:latest");
 
-// Create container
-await docker.containers.create(
+const container = await docker.containers.create(
 	"test-mongo",
 	{
 		Image: "mongo"
 	}
 );
+
+await docker.containers.start(container.Id);
+
+const inspectContainerResponse = await docker.containers.inspect(container.Id);
+
+await docker.containers.stop(container.Id);
+
+await docker.containers.delete(container.Id);
 ````
 
