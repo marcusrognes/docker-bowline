@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"sourceMap": true,
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": false,
+		"incremental": true,
+		"baseUrl": ".",
+		"paths": {
+		}
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

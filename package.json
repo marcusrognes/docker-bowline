@@ -1,0 +1,19 @@
+{
+  "name": "simple-docker",
+  "version": "1.0.0",
+  "description": "A dependency free library to manage docker containers through a socket connection",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "docker",
+    "typescript"
+  ],
+  "author": "Marcus Rognes <marcus@rognes.guru>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "typescript": "^5.2.2"
+  }
+}
