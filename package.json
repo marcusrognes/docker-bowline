@@ -1,8 +1,10 @@
 {
   "name": "docker-bowline",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A dependency free library to manage docker containers through a socket connection",
-  "main": "src/index.js",
+  "files": ["dist"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
