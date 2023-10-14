@@ -1,6 +1,6 @@
 {
   "name": "docker-bowline",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A dependency free library to manage docker containers through a socket connection",
   "main": "src/index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "typescript"
   ],
   "author": "Marcus Rognes <marcus@rognes.guru>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcusrognes/docker-bowline"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.8.6",
