@@ -1,5 +1,5 @@
 {
-  "name": "simple-docker",
+  "name": "docker-bowline",
   "version": "1.0.0",
   "description": "A dependency free library to manage docker containers through a socket connection",
   "main": "src/index.js",
