@@ -2,7 +2,7 @@
   "name": "simple-docker",
   "version": "1.0.0",
   "description": "A dependency free library to manage docker containers through a socket connection",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "tsc"
   },
